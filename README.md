@@ -4,7 +4,14 @@
 OpenRefine's extension to add authentication protocols for HTTP/HTTPS request. Compatible with OpenRefine 3.3 supporting: 
 
 * Custom applications with JWT tokens
-* RDF extension with basic authentication for AllegroGraph
+* Basic authentication (login password)
+
+The extension allow passing credentials when
+* Creating a project from Web Addresses (URLs):
+* Adding a column by fetching URLs based on this column
+* Calling a reconciliation service via OpenRefine native 
+* Calling a RDF endpoint using the [RDF extension](https://github.com/stkenny/grefine-rdf-extension) 
+
 
 
 ## Requirements
@@ -45,7 +52,7 @@ OpenRefine's extension to add authentication protocols for HTTP/HTTPS request. C
           curl --location --request GET 'http://localhost:8080/api/languages' \
           --header 'Authorization: Bearer TOKEN_FROM_PREVIOUS_REQUEST''```
 
-* Open in a browser http://127.0.0.1:3333/ then follow the video https://www.loom.com/share/7065806b1fd14e2b83f4412b2829bbd0
+* Open in a browser http://127.0.0.1:3333/ then follow the video https://youtu.be/6fm29SzaQ7g
 * Credentials for http://languages.local.com:8080/api/login:
     * Username: `admin`
     * Password: `password`
