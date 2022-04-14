@@ -6,10 +6,10 @@ OpenRefine's extension to add authentication protocols for HTTP/HTTPS request. C
 * Custom applications with JWT tokens
 * Basic authentication (login password)
 
-The extension allow passing credentials when
+The extension allows passing credentials when
 * Creating a project from Web Addresses (URLs):
 * Adding a column by fetching URLs based on this column
-* Calling a reconciliation service via OpenRefine native 
+* Calling a reconciliation service via OpenRefine native interface
 * Calling a RDF endpoint using the [RDF extension](https://github.com/stkenny/grefine-rdf-extension) 
 
 
