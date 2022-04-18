@@ -1,5 +1,4 @@
 FROM openjdk:8-jre-alpine
-LABEL docker_image=novartis-openrefine
 LABEL version=1.0
 
 # OpenRefine 3.4.1 as a based application
